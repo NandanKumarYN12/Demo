@@ -10,6 +10,7 @@
             Dim DecryptedData As String = ClsEncryptDecrypt.DecryptData(vReadData, EncryptionKey)
             RichTextBox2.Text = DecryptedData
             MsgBox("Nandan Kumar Y N")
+            MsgBox("Nandan Kumar Y N")
         Catch Ex As Exception
             MsgBox(Ex.Message)
         End Try
